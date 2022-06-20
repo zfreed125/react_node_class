@@ -1,9 +1,72 @@
-Footer {
+body {
+    background-color: black;
+    border: 10px solid white;
+    position: relative;
+    left: 550px;
+    width: 600px;
+    height: 1050px;
+}
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: darkgrey;
+    background-color: white;
     text-align: center;
     padding: 10px;
     margin-left: -10px;
+}
+
+.footer--insta {
+    padding-right: 10px;
+}
+
+.footer--twitter {
+    padding-left: 10px;
+}
+
+info {
+    text-align: center;
+    color: white;
+}
+
+.info--img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+about {
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+}
+
+.about--text {
+    display: block;
+    max-width: 450px;
+    font-size: large;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+interests {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.interests--text {
+    display: block;
+    max-width: 450px;
+    font-size: large;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }

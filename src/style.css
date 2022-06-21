@@ -66,12 +66,15 @@ about {
 
 .info--gov {
     padding-top: 20px;
+    color: aqua;
 }
 
 .info--occupation {
     padding-top: 20px;
+    color: aqua;
 }
 
-.info--title {
+.info--name {
     padding-top: 20px;
+    color: aqua;
 }

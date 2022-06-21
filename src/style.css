@@ -32,18 +32,17 @@ info {
 }
 
 .info--img {
-    width: 50%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    padding-top: 20px;
 }
 
 about {
     color: white;
     text-align: center;
     display: block;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .about--text {
@@ -55,18 +54,24 @@ about {
     margin-right: auto;
 }
 
-interests {
-    color: white;
+.info--button {
     display: block;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.interests--text {
-    display: block;
-    max-width: 450px;
-    font-size: large;
-    text-align: left;
     margin-left: auto;
     margin-right: auto;
+    background-color: aqua;
+    font-size: 24px;
+    padding: 12px 28px;
+    text-decoration: none;
+}
+
+.info--gov {
+    padding-top: 20px;
+}
+
+.info--occupation {
+    padding-top: 20px;
+}
+
+.info--title {
+    padding-top: 20px;
 }
